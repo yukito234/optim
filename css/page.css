@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+.container-page{
+	display: flex;
+	background-color: #f8f8f8;
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+
+#contents-page{
+	flex:1;
+	border: 1px solid #ddd;
+	align-self: flex-start;
+	padding-bottom: 50px;
+	background-color:white;
+}
+
+#contents-page h1{
+	text-align: center;
+	border: 0px solid ;
+}
+
+.attachment-full{
+	border: 0px solid ;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+#contents-page article{
+	border: 1px solid #ddd;
+}
+
+.page-date{
+	margin-bottom: 20px;
+}
+
+#contents-page h2{
+	color: #333333;/
+	padding: 0.5em 0;/*上下の余白*/
+	border-top: solid 3px #333333;
+	border-bottom: solid 3px #333333;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#contents-page h3{
+	border-bottom: solid 3px #333333;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+/*********************************************
+TB and sp size
+**********************************************/
+
+@media all and (max-width: 900px) {
+
+.container-page{
+	display: block ;
+}
+
+}

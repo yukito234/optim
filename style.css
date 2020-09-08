@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/*
+Theme Name: optim-1
+Theme URI: https://yuuto-ads.com/
+Description: This is my original theme.
+Author: yuto
+Author URI:　https://yuuto-ads.com/
+Version:1.0
+*/
+
+@import url(css/header.css);
+@import url(css/container.css);
+@import url(css/sidebar.css);
+@import url(css/footer.css);
+@import url(css/page.css);
+@import url(css/single.css);
+@import url(css/category.css);
+@import url(css/style-404.css);
+@import url(css/search.css);

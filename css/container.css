@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+/*********************************************
+PC size
+**********************************************/
+
+.sidebar-content{
+	border: 1px solid #ddd;
+}
+
+.container{
+	display: flex;
+	background-color: #f8f8f8;
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+
+/*記事紹介エリアの大枠*/
+.post-top{
+	display: flex;
+	border: 1px solid #ddd;
+	background-color: white;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+/*No image*/
+.eyecatch-img{
+	width: 200px;
+	max-width: 200px;
+}
+
+/*アイキャッチ画像*/
+.post-top img{
+	width: 200px;
+	max-width: 200px;
+}
+
+.img-profile{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+}
+
+.post-top figure{
+	margin:0;
+}
+
+time{
+	font-size: 12px;
+	color: #333333;
+}
+
+/*アイキャッチ下のカテゴリ名*/
+figcaption{
+	font-size: 12px;
+}
+
+figcaption a{
+	text-decoration: none;
+	border:0px solid;
+	margin-right: 5px;
+}
+
+/*続きを読むリンク*/
+.read-more {
+	display: block;
+	font-size: 18px;
+	padding: 10px;
+	width: 150px;
+	margin-left: auto;
+	text-align: center;
+	text-decoration: none;
+	border:1px solid #ddd;
+	color: #333333;
+}
+
+.read-more:hover{
+	color:white;
+	background-color: #333333;
+}
+
+.post-ttl-01{
+	margin-top: 0;
+}
+
+.ttl-link{
+	text-decoration: none;
+	color: #333333;
+}
+
+.ttl-link:hover{
+	text-decoration: underline;
+}
+
+.post-ttl-01 {
+	color: #333333;
+	font-size: 24px;
+}
+
+/*各記事紹介エリアの右半分*/
+.post-content-01{
+	margin-left: 10px;
+}
+
+.post-content-01 p{
+	color: #333333;
+}
+
+/*フォルダのアイコン*/
+.post-category-01 i{
+	color: #333333;
+}
+
+/*カテゴリのリンク*/
+.post-category-01 a{
+	color: #333333;
+}
+
+.post-category-01 a:hover{
+	text-decoration: underline;
+}
+
+/*ページネーション*/
+.pagination ul {
+	border:0px solid;
+	padding-left:0;
+	display: flex;
+}
+
+.pagination li{
+	width: 30px;
+	height: 30px;
+	border:1px solid #333333;
+	list-style-type: none;
+	margin-right: 5px;
+	background-color: white;
+}
+
+.pagination li a{
+	text-align: center;
+	line-height: 30px;
+	display: block;
+	text-decoration: none;
+	color: #333333;
+}
+
+.pagination li a:hover{
+	text-decoration: underline;
+}
+
+.pagination ul li{
+	line-height: 30px;
+	color: #333333;
+	text-align: center;
+}
+
+.pagination ul li span:not(.dots){
+	border:0px solid;
+	width: 30px;
+	height: 30px;
+	display: block;
+	color:white;
+	background: #333333;
+}
+
+.pagination .next{
+	line-height: 30px;
+	border:none;
+}
+
+/*********************************************
+TB  size
+**********************************************/
+
+@media all and (max-width: 900px) {
+
+.container{
+	display: block;
+}
+
+}
+
+/*********************************************
+SP size
+**********************************************/
+
+@media all and (max-width: 600px) {
+
+.post-top{
+	display: block;
+}
+
+.post-top img{
+	display: block;
+	border: 0px solid;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+figcaption{
+	font-size: 12px;
+	border: 0px solid;
+	text-align: right;
+}
+
+.post-ttl-01{
+	margin-top: 20px;
+}
+
+}

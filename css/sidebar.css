@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+/*********************************************
+PC size
+**********************************************/
+
+.sidebar,
+aside{
+	width: 300px;
+	min-width: 300px;
+	margin-left: 20px;
+	border: 0px solid;
+}
+
+.sidebar-wrapper{
+	border: 1px solid #ddd;
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+.sidebar-title{
+	font-size: 18px;
+	margin-left: 10px;
+	color: #333333;
+}
+
+/*最近の投稿*/
+.widget_recent_entries ul{
+	padding-left: 0;
+	margin-left: 20px;
+}
+
+.widget_recent_entries ul li{
+	list-style-type: none;
+	color: #333333;
+	border-bottom: 1px dotted #ddd;
+	margin-bottom: 20px;
+}
+
+.widget_recent_entries ul li a{
+	color: #333333;
+	text-decoration: none;
+}
+
+.widget_recent_entries ul li a:hover{
+	text-decoration: underline;
+}
+
+.widget_recent_entries .post-date {
+	display: block;
+	font-size: 10px;
+	color: #333333;
+}
+
+/*カテゴリ*/
+.cat-item a{
+	text-decoration: none;
+	color: #333333;
+}
+
+.cat-item a:hover{
+	text-decoration: underline;
+}
+
+.widget_categories > ul > li {
+	list-style-type: none;
+}
+
+.widget_categories > ul > li::before {
+	font-family: "Font Awesome 5 Free";
+    content: '\f138';
+    font-weight: 900;
+    color: #333333;
+    padding-right:5px;
+}
+
+
+.widget_categories > ul > li li{
+	list-style-type: none;
+}
+
+.widget_categories > ul > li li::before{
+	font-family: "Font Awesome 5 Free";
+    content: '\f105';
+    font-weight: 900;
+    color: #333333;
+    padding-right:5px;
+}
+
+.widget_categories form{
+	display: block;
+	margin-left: 20px;
+	margin-bottom: 40px;
+}
+
+.widget_categories option,
+.widget_categories label
+.widget_categories select
+{
+	font-size: 16px;
+	color: #333333;
+}
+
+.widget_categories select{
+	padding: 10px;
+}
+
+/*アーカイブ*/
+.widget_archive li{
+	list-style-type: none;
+}
+
+.widget_archive li a{
+	text-decoration: none;
+	 color: #333333;
+}
+
+.widget_archive li a:hover{
+	text-decoration: underline;
+}
+
+/*カレンダー*/
+.widget_calendar{
+	border:1px solid #ddd;
+}
+
+.calendar_wrap{
+	border:0px solid ;
+}
+
+#wp-calendar{
+	border:1px solid #ddd;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*メタ情報*/
+.widget_meta li {
+	color: #333333;
+}
+
+.widget_meta li a{
+	text-decoration: none;
+	color: #333333;
+}
+
+.widget_meta li a:hover{
+	text-decoration: underline;
+}
+
+/*検索*/
+.screen-reader-text{
+	display:none;
+}
+
+#s {
+	font-size: 18px;
+	width: 200px;
+	height: 30px;
+	display: block;
+	padding: 5px;
+	border:1px solid #333333;
+	margin: 0;
+}
+
+
+#searchform {
+	display: block;
+	font-size: 0;
+	position: relative;
+	border: 0px solid red;
+	margin-bottom: 20px;
+}
+
+#searchform div {
+	margin-left: 20px;
+}
+
+#searchform::before{
+	z-index: 1;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: none;
+    padding-left: 0px;
+    font-family: "Font Awesome 5 Free";
+    content: '\f002';
+    font-weight: 900;
+    line-height: 43px;
+    color:black;
+    color: #7F878C;
+    pointer-events: none;
+    border:3px solid;
+    font-size: 30px;
+    background-color: yellow;
+}
+
+#searchsubmit {
+    display: block;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 42px;
+    position: absolute;
+    left:200px;
+    top:0;
+    z-index: 2;
+    border-left: 1px solid #333333;
+    border-right:1px solid #333333;
+    border-top:1px solid #333333;
+    border-bottom:1px solid #333333;
+}
+
+/*最近のコメント*/
+.widget_recent_comments li{
+	list-style-type: none;
+	margin-bottom: 30px;
+}
+
+.widget_recent_comments li a{
+	color: #333333;
+}
+
+/*********************************************
+TB and SP size
+**********************************************/
+
+@media all and (max-width: 900px) {
+
+.sidebar{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+}
